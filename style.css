@@ -1,0 +1,303 @@
+body {
+  font-size: 14px;
+  font-family: Montserrat;
+}
+
+[class*="col-"] { /*déclaration des colonnes*/
+  float: left;
+}
+
+.col-1 {width: 8.33%;} 
+.col-2 {width: 16.66%;} 
+.col-3 {width: 25%;} 
+.col-4 {width: 33.33%;} 
+.col-5 {width: 41.66%;} 
+.col-6 {width: 50%;} 
+.col-7 {width: 58.33%;} 
+.col-8 {width: 66.66%;} 
+.col-9 {width: 75%;} 
+.col-10 {width: 83.33%;} 
+.col-11 {width: 91.66%;} 
+.col-12 {width: 100%;}
+
+@font-face{
+  font-family: "Recoleta bold";
+  src:url("Recoleta-Bold.ttf");
+}
+
+.bandeau {
+  width: 110%;
+  height: 145px;
+  background: rgba(251,209,195,1);
+  opacity: 1;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  overflow: hidden;
+}
+
+.logo{
+  width: 120px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+
+
+.menuAccueil {
+  width: 87px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 615px;
+  font-family: Montserrat;
+  font-weight: Light;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.menuPortfolio {
+  width: 102px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 59px;
+  left: 771px;
+  font-family: Montserrat;
+  font-weight: Light;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+.menuCV {
+  width: 221px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 952px;
+  font-family: Montserrat;
+  font-weight: Regular;
+  font-size: 26px;
+  opacity: 1;
+  text-align: left;
+}
+.menuContact {
+  width: 95px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 60px;
+  left: 1223px;
+  font-family: Montserrat;
+  font-weight: Light;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  color: rgb(234,87,14);
+  position: relative;
+  font-family: Recoleta Bold;
+  font-size: 45px;
+}
+
+h2 {
+  position: relative;
+  color: black;
+  font-family: Montserrat-bold;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+  position: relative;
+  color: rgb(234,87,14);
+  font-family: Montserrat-light;
+  font-size: 25px;
+
+}
+
+h4{
+  margin-top: 80px;
+  text-align: center;
+  position: relative;
+  color: black;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 45%;
+  margin-right: 45%;
+
+}
+
+nav ul{ /*menu de navigation*/
+  list-style-type: none;
+  display: flex;
+  padding-top: 45px;
+
+}
+
+nav li{  /*éléments de la liste du menu*/
+
+  margin-right: 35px;
+  color: #0131B4;
+  font-size: 16px;
+
+}
+
+
+a:link{  /*couleurs des liens*/
+color: black;
+text-decoration: none;
+
+}
+        
+a:visited{ /*couleurs des liens visités*/
+color: black;
+}
+        
+a:hover{ /*couleur des liens au survol*/
+color: rgb(234,87,14);
+}
+
+.cvAnnee{
+  font-family: Montserrat-semibold;
+  font-size: 18px;
+}
+
+.rmm{
+  margin-bottom: 120px;
+}
+
+
+#coordonnees{
+  font-size: 25px;
+  text-align: center;
+}
+
+.bouton{
+  border-style: none;
+  display: block;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  
+}
+
+button{
+  width: 150px;
+  background-color: rgb(234,87,14);
+  border-radius: 10px;
+  align-items: center;
+}
+
+.sommaireProductions{
+  text-align: center;
+}
+
+.image24h{
+  width: 99%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.image24hplan, .image24hprog, .image, .videoMonogramme, #imgDessin{
+  width: 100%;
+}
+
+.videoAirbnb{
+  width: 100%;
+  height: 100%;
+  margin-bottom: 120px;
+}
+
+.logoAdobe{
+  width: 25%;
+  float: right;
+  padding-right: 10px;
+  padding-top: 7px;
+}
+
+.competences{
+  padding-bottom: 180px;
+}
+
+footer{ /*pied de page*/
+  background-color: #EA570E;
+  opacity: 0.75;
+  color: white;
+  padding-bottom: 15px;
+  margin-left: -20px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 25px;
+}
+
+.logoFooter{
+  width: 30px;
+  height: 30px;
+  margin-bottom: -8px;
+  padding-top: 5px;
+}
+
+.piedPage{
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1200px){ /*adaptation du site aux écrans de moins de 1200px*/
+  
+  body{ /*corps du site*/
+    font-size: 80%;
+  }
+
+  nav ul{ /*liste de menu de navigation*/
+    flex-direction: row;
+  }
+  nav li{ /*éléments de la liste du menu*/
+    padding left: 4px;
+    font-size: 14px;
+  }
+
+
+  h1{ /*titres de niveau 1*/
+    font-size: 35px;
+  }
+  h2{  /*titres de niveau 2*/
+    font-size: 25px;
+  }
+
+}
+
+@media screen and (max-width: 600px){/*adaptation du site aux écrans de moins de 600px*/
+
+body{
+  font-size: 75%;
+}
+  nav{ /*menu de navigation*/
+    width:auto;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 15px;
+  }
+  nav ul{ /*liste du menu*/
+    flex-direction: column;
+    padding-top: 8px;
+  }
+  nav li{ /*éléments de la liste du menu*/
+    padding left: 4px;
+    font-size: 12px;
+  }
+
+  h1{ /*titres de niveau 1*/
+    font-size: 25px;
+  }
+
+  h2{/*titres de niveau 2*/
+    font-size: 15px;
+  }
