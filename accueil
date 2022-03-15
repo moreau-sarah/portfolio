@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="bandeau">
+
+      <div class="col-2">
+        <img class="logo" src="logo_header.png">
+      </div>
+    
+      
+      <div class="col-3"> <!--colonnes vides -->
+        <p> </p>
+      </div>
+  
+      <div class="col-7">
+        <nav>  
+          <ul class="menu">
+            <li><a href="portfolio_accueil.html">Accueil</a></li>
+            <li><a href="portfolio_projets.html">Portfolio</a></li>
+            <li><a href="portfolio_cv.html">Curriculum Vitae</a></li>
+            <li><a href="portfolio_contact.html">Contact</a></li>
+          </ul>
+         </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+  
+    <div class="col-1"> <!--colonne vide -->
+      <p> </p>
+    </div>
+
+    <div class="col-5">
+      <img id="imgDessin" src="illustration_sarah.png">
+    </div>
+      
+    <div class="col-1"> <!--colonne vide -->
+      <p> </p>
+    </div>
+
+    <div class="col-4">
+      <h1>Bonjour et bienvenue sur mon site</h1>
+      <div>Je suis Sarah Moreau, 24 ans, étudiante en Communication et Conception Infographique, lyonnaise de coeur, amoureuse de nourriture, de comédies françaises et de décoration. Je suis également passionnée de voyages improvisés, d’énigmes et de rayons de soleil en terrasse.</div>
+       </br>  
+       <button type="button" style=" border-style: none; margin-left: 20%; margin-right: auto;"><a href="portfolio_projets.html" class="bouton" style="color: white; display: inline-block;text-decoration: none; text-align: center;">Voir les réalisations</button>
+    </div>
+
+    <div class="col-1"> <!--colonne vide -->
+      <p> </p>
+    </div>
+</a>
+</button>
+</div>
+</div>
+
+
+
+  <footer><!--Pied de page-->
+    <div class="piedPage">
+      <a href="mailto:sarahmoreau37@gmail.com" style="color: white; font-size: 1.2em">sarahmoreau37@gmail.com
+      </a>
+      <a href="https://www.behance.net/sarahmoreau1">
+        <img class="logoFooter" src="images/behance.png">
+      </a>
+      <a href="https://www.linkedin.com/in/sarah-moreau37">
+        <img class="logoFooter" src="images/linkedin.png">
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
